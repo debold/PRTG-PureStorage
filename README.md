@@ -26,3 +26,6 @@ The sensor will provide the following channels:
 10. **IOPS - Reads/sec** shows the current read operations per second.
 11. **Write latency (ms)** represents the time in milliseconds, the write IO currently takes.
 12. **Read latency (ms)** represents the time in milliseconds, the read IO currently takes.
+
+Further reading:
+https://www.team-debold.de/2018/09/09/prtg-monitoring-your-pure-storage-system/
