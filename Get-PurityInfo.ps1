@@ -111,7 +111,7 @@ $HwGroup = $HardwareState | Group-Object -Property "status" | Select-Object Name
                 "value" = ($HwGroup | ? { $_.Name -notin @("ok", "not_installed") }).Count;
                 "unit" = "Count";
                 "limitmode" = 1;
-                "limitmaxerror" = 1;
+                "limitmaxerror" = 0.5;
                 "limiterrormsg" = "At least 1 hardware component has a critical state"
             };
             @{
